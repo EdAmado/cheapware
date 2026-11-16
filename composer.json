@@ -1,0 +1,11 @@
+{
+    "name": "eduardo-pc/cheap-ware_pap",
+    "autoload": {
+        "psr-4": {
+            "EduardoPc\\CheapWarePap\\": "src/"
+        }
+    },
+    "require": {
+        "php-activerecord/php-activerecord": "^1.2"
+    }
+}
