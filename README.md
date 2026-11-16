@@ -1,6 +1,6 @@
 # CheapWare
 
-CheapWare is a small online computer hardware store written in PHP. I built it as my **PAP** (*Prova de Aptidão Profissional*), the final project of a Portuguese vocational course.
+CheapWare is a small online computer hardware store written in PHP. I built it as my side experimental project
 
 Customers can browse and search the catalogue and keep a list of favourite products. Staff and administrators use a back office to manage products, product categories and users.
 
@@ -29,7 +29,7 @@ Customers can browse and search the catalogue and keep a list of favourite produ
 ## Project structure
 
 ```
-CheapWare_PAP/
+Cheapware/
 ├── index.php            # Front controller / router (?controller=...&action=...)
 ├── startup/boot.php     # Autoload + ActiveRecord DB configuration
 ├── controllers/         # Controllers (BaseController + one per entity)
@@ -63,8 +63,8 @@ index.php?controller=produto&action=edit&id=3
 1. **Clone the repository**
 
    ```bash
-   git clone https://github.com/<your-user>/CheapWare_PAP.git
-   cd CheapWare_PAP
+   git clone https://github.com/EdAmado/cheapware.git
+   cd cheapware
    ```
 
 2. **Install the dependencies**
@@ -120,4 +120,4 @@ This is a school project and is **not meant for production use**:
 
 ## Author
 
-**Eduardo Amado**: PAP project.
+**Eduardo Amado**
